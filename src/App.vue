@@ -1,11 +1,20 @@
 <template>
   <div id="app">
     <div class="main-container">
-      <div id="nav"><router-link to="/">Home</router-link> |</div>
       <router-view />
+      <bottom-menu></bottom-menu>
     </div>
   </div>
 </template>
+
+<script>
+import BottomMenu from './components/BottomMenu/BottomMenu';
+export default {
+  components: {
+    BottomMenu
+  }
+};
+</script>
 
 <style lang="scss">
 #app {
