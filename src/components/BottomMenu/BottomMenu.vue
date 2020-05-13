@@ -49,22 +49,17 @@ export default {
 .nav {
   width: inherit;
   position: fixed;
-  padding: 10px 0px 6px;
+  padding: 12px 0;
   bottom: 0;
   z-index: 10;
-  background-color: #1a6134;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  box-shadow: 0px -5px 6px -4px rgba(26, 97, 52, 0.35);
-  border-radius: 32px 32px 0 0;
+  justify-content: space-around;
+  box-shadow: 0px 0px 10px #0000001a;
   font-size: 16px;
 }
 
 @media screen and (max-width: 467px) {
-  .nav {
-    border-radius: 20px 20px 0 0;
-    font-size: 14px;
-  }
 }
 </style>

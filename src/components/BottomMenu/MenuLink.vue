@@ -46,14 +46,14 @@ export default {
   &:hover span.nav-text,
   &:focus span.nav-text,
   &.active span.nav-text {
-    color: #fff;
+    color: #1a6134;
   }
 
   &:hover span.nav-icon,
   &:focus span.nav-icon,
   &.active span.nav-icon {
-    background-color: #fff;
-    color: #1a6134;
+    background-color: #1a6134;
+    color: #fff;
     font-size: 1em;
   }
 
@@ -66,14 +66,14 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #4e4e4e;
     margin-bottom: 4px;
     transition: 0.25s ease-in-out;
   }
 
   span.nav-text {
     font-size: 0.75rem;
-    color: #fff;
+    color: #4e4e4e;
     transition: 0.25s ease-in-out;
     text-transform: capitalize;
   }
