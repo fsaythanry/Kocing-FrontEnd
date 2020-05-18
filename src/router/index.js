@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import PageNotFound from '../views/PageNotFound.vue';
+import Covid from '../views/Covid.vue';
 
 Vue.use(VueRouter);
 
@@ -14,6 +15,11 @@ const routes = [
   {
     path: '*',
     component: PageNotFound
+  },
+  {
+    path: '/covid19',
+    name: 'Covid',
+    component: Covid
   }
 ];
 
